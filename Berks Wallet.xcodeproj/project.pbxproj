@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B322DC3021D184F5000F0551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC2F21D184F5000F0551 /* AppDelegate.swift */; };
+		B322DC3221D184F5000F0551 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC3121D184F5000F0551 /* FirstViewController.swift */; };
+		B322DC3421D184F5000F0551 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC3321D184F5000F0551 /* SecondViewController.swift */; };
+		B322DC3721D184F5000F0551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B322DC3521D184F5000F0551 /* Main.storyboard */; };
+		B322DC3921D184F6000F0551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B322DC3821D184F6000F0551 /* Assets.xcassets */; };
+		B322DC3C21D184F6000F0551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B322DC3A21D184F6000F0551 /* LaunchScreen.storyboard */; };
+		B322DC4721D184F6000F0551 /* Berks_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC4621D184F6000F0551 /* Berks_WalletTests.swift */; };
+		B322DC5221D184F6000F0551 /* Berks_WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC5121D184F6000F0551 /* Berks_WalletUITests.swift */; };
+		B322DC6021D2AB96000F0551 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC5F21D2AB96000F0551 /* ThirdViewController.swift */; };
+		B322DC6221D2B978000F0551 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6121D2B978000F0551 /* FourthViewController.swift */; };
+		B322DC6421D2BCCC000F0551 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6321D2BCCC000F0551 /* FifthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B322DC4321D184F6000F0551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DC2421D184F5000F0551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DC2B21D184F5000F0551;
+			remoteInfo = "Berks Wallet";
+		};
+		B322DC4E21D184F6000F0551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B322DC2421D184F5000F0551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B322DC2B21D184F5000F0551;
+			remoteInfo = "Berks Wallet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B322DC2C21D184F5000F0551 /* Berks Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berks Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B322DC2F21D184F5000F0551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B322DC3121D184F5000F0551 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B322DC3321D184F5000F0551 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B322DC3621D184F5000F0551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B322DC3821D184F6000F0551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B322DC3B21D184F6000F0551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B322DC3D21D184F6000F0551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B322DC4221D184F6000F0551 /* Berks WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berks WalletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B322DC4621D184F6000F0551 /* Berks_WalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berks_WalletTests.swift; sourceTree = "<group>"; };
+		B322DC4821D184F6000F0551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B322DC4D21D184F6000F0551 /* Berks WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berks WalletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B322DC5121D184F6000F0551 /* Berks_WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berks_WalletUITests.swift; sourceTree = "<group>"; };
+		B322DC5321D184F6000F0551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B322DC5F21D2AB96000F0551 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B322DC6121D2B978000F0551 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		B322DC6321D2BCCC000F0551 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B322DC2921D184F5000F0551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322DC3F21D184F6000F0551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322DC4A21D184F6000F0551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B322DC2321D184F5000F0551 = {
+			isa = PBXGroup;
+			children = (
+				B322DC2E21D184F5000F0551 /* Berks Wallet */,
+				B322DC4521D184F6000F0551 /* Berks WalletTests */,
+				B322DC5021D184F6000F0551 /* Berks WalletUITests */,
+				B322DC2D21D184F5000F0551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B322DC2D21D184F5000F0551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B322DC2C21D184F5000F0551 /* Berks Wallet.app */,
+				B322DC4221D184F6000F0551 /* Berks WalletTests.xctest */,
+				B322DC4D21D184F6000F0551 /* Berks WalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B322DC2E21D184F5000F0551 /* Berks Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				B322DC2F21D184F5000F0551 /* AppDelegate.swift */,
+				B322DC3121D184F5000F0551 /* FirstViewController.swift */,
+				B322DC6321D2BCCC000F0551 /* FifthViewController.swift */,
+				B322DC3321D184F5000F0551 /* SecondViewController.swift */,
+				B322DC3521D184F5000F0551 /* Main.storyboard */,
+				B322DC3821D184F6000F0551 /* Assets.xcassets */,
+				B322DC3A21D184F6000F0551 /* LaunchScreen.storyboard */,
+				B322DC3D21D184F6000F0551 /* Info.plist */,
+				B322DC5F21D2AB96000F0551 /* ThirdViewController.swift */,
+				B322DC6121D2B978000F0551 /* FourthViewController.swift */,
+			);
+			path = "Berks Wallet";
+			sourceTree = "<group>";
+		};
+		B322DC4521D184F6000F0551 /* Berks WalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				B322DC4621D184F6000F0551 /* Berks_WalletTests.swift */,
+				B322DC4821D184F6000F0551 /* Info.plist */,
+			);
+			path = "Berks WalletTests";
+			sourceTree = "<group>";
+		};
+		B322DC5021D184F6000F0551 /* Berks WalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B322DC5121D184F6000F0551 /* Berks_WalletUITests.swift */,
+				B322DC5321D184F6000F0551 /* Info.plist */,
+			);
+			path = "Berks WalletUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B322DC2B21D184F5000F0551 /* Berks Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B322DC5621D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks Wallet" */;
+			buildPhases = (
+				B322DC2821D184F5000F0551 /* Sources */,
+				B322DC2921D184F5000F0551 /* Frameworks */,
+				B322DC2A21D184F5000F0551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Berks Wallet";
+			productName = "Berks Wallet";
+			productReference = B322DC2C21D184F5000F0551 /* Berks Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B322DC4121D184F6000F0551 /* Berks WalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B322DC5921D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks WalletTests" */;
+			buildPhases = (
+				B322DC3E21D184F6000F0551 /* Sources */,
+				B322DC3F21D184F6000F0551 /* Frameworks */,
+				B322DC4021D184F6000F0551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B322DC4421D184F6000F0551 /* PBXTargetDependency */,
+			);
+			name = "Berks WalletTests";
+			productName = "Berks WalletTests";
+			productReference = B322DC4221D184F6000F0551 /* Berks WalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B322DC4C21D184F6000F0551 /* Berks WalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B322DC5C21D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks WalletUITests" */;
+			buildPhases = (
+				B322DC4921D184F6000F0551 /* Sources */,
+				B322DC4A21D184F6000F0551 /* Frameworks */,
+				B322DC4B21D184F6000F0551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B322DC4F21D184F6000F0551 /* PBXTargetDependency */,
+			);
+			name = "Berks WalletUITests";
+			productName = "Berks WalletUITests";
+			productReference = B322DC4D21D184F6000F0551 /* Berks WalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B322DC2421D184F5000F0551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ApolloLabs;
+				TargetAttributes = {
+					B322DC2B21D184F5000F0551 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B322DC4121D184F6000F0551 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B322DC2B21D184F5000F0551;
+					};
+					B322DC4C21D184F6000F0551 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B322DC2B21D184F5000F0551;
+					};
+				};
+			};
+			buildConfigurationList = B322DC2721D184F5000F0551 /* Build configuration list for PBXProject "Berks Wallet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B322DC2321D184F5000F0551;
+			productRefGroup = B322DC2D21D184F5000F0551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B322DC2B21D184F5000F0551 /* Berks Wallet */,
+				B322DC4121D184F6000F0551 /* Berks WalletTests */,
+				B322DC4C21D184F6000F0551 /* Berks WalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B322DC2A21D184F5000F0551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B322DC3C21D184F6000F0551 /* LaunchScreen.storyboard in Resources */,
+				B322DC3921D184F6000F0551 /* Assets.xcassets in Resources */,
+				B322DC3721D184F5000F0551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322DC4021D184F6000F0551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322DC4B21D184F6000F0551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B322DC2821D184F5000F0551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B322DC6421D2BCCC000F0551 /* FifthViewController.swift in Sources */,
+				B322DC3421D184F5000F0551 /* SecondViewController.swift in Sources */,
+				B322DC3021D184F5000F0551 /* AppDelegate.swift in Sources */,
+				B322DC6021D2AB96000F0551 /* ThirdViewController.swift in Sources */,
+				B322DC3221D184F5000F0551 /* FirstViewController.swift in Sources */,
+				B322DC6221D2B978000F0551 /* FourthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322DC3E21D184F6000F0551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B322DC4721D184F6000F0551 /* Berks_WalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B322DC4921D184F6000F0551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B322DC5221D184F6000F0551 /* Berks_WalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B322DC4421D184F6000F0551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DC2B21D184F5000F0551 /* Berks Wallet */;
+			targetProxy = B322DC4321D184F6000F0551 /* PBXContainerItemProxy */;
+		};
+		B322DC4F21D184F6000F0551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B322DC2B21D184F5000F0551 /* Berks Wallet */;
+			targetProxy = B322DC4E21D184F6000F0551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B322DC3521D184F5000F0551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B322DC3621D184F5000F0551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B322DC3A21D184F6000F0551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B322DC3B21D184F6000F0551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B322DC5421D184F6000F0551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B322DC5521D184F6000F0551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B322DC5721D184F6000F0551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWG8L79R23;
+				INFOPLIST_FILE = "Berks Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B322DC5821D184F6000F0551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWG8L79R23;
+				INFOPLIST_FILE = "Berks Wallet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B322DC5A21D184F6000F0551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWG8L79R23;
+				INFOPLIST_FILE = "Berks WalletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berks Wallet.app/Berks Wallet";
+			};
+			name = Debug;
+		};
+		B322DC5B21D184F6000F0551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWG8L79R23;
+				INFOPLIST_FILE = "Berks WalletTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berks Wallet.app/Berks Wallet";
+			};
+			name = Release;
+		};
+		B322DC5D21D184F6000F0551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWG8L79R23;
+				INFOPLIST_FILE = "Berks WalletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Berks Wallet";
+			};
+			name = Debug;
+		};
+		B322DC5E21D184F6000F0551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWG8L79R23;
+				INFOPLIST_FILE = "Berks WalletUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Berks Wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B322DC2721D184F5000F0551 /* Build configuration list for PBXProject "Berks Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B322DC5421D184F6000F0551 /* Debug */,
+				B322DC5521D184F6000F0551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B322DC5621D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B322DC5721D184F6000F0551 /* Debug */,
+				B322DC5821D184F6000F0551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B322DC5921D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks WalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B322DC5A21D184F6000F0551 /* Debug */,
+				B322DC5B21D184F6000F0551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B322DC5C21D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks WalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B322DC5D21D184F6000F0551 /* Debug */,
+				B322DC5E21D184F6000F0551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B322DC2421D184F5000F0551 /* Project object */;
+}
