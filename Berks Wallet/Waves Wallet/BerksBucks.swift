@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import InteractiveSideMenu
 
-class FifthViewController: UIViewController {
+class BerksBucks: UIViewController, SideMenuItemContent, Storyboardable {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    // Show side menu on menu button click
+    @IBAction func openMenu(_ sender: UIButton) {
+        showSideMenu()
     }
     
     

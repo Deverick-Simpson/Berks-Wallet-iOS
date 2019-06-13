@@ -7,17 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44187EDBA0601A97AD72242C /* Pods_Berks_WalletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34550545D5DA9248CBD71AAC /* Pods_Berks_WalletUITests.framework */; };
+		6FB6716EA121DDEED7111EC6 /* Pods_Berks_WalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA9C5C2443685CF6FA4D73E /* Pods_Berks_WalletTests.framework */; };
 		B322DC3021D184F5000F0551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC2F21D184F5000F0551 /* AppDelegate.swift */; };
 		B322DC3221D184F5000F0551 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC3121D184F5000F0551 /* FirstViewController.swift */; };
-		B322DC3421D184F5000F0551 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC3321D184F5000F0551 /* SecondViewController.swift */; };
 		B322DC3721D184F5000F0551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B322DC3521D184F5000F0551 /* Main.storyboard */; };
 		B322DC3921D184F6000F0551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B322DC3821D184F6000F0551 /* Assets.xcassets */; };
 		B322DC3C21D184F6000F0551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B322DC3A21D184F6000F0551 /* LaunchScreen.storyboard */; };
 		B322DC4721D184F6000F0551 /* Berks_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC4621D184F6000F0551 /* Berks_WalletTests.swift */; };
 		B322DC5221D184F6000F0551 /* Berks_WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC5121D184F6000F0551 /* Berks_WalletUITests.swift */; };
-		B322DC6021D2AB96000F0551 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC5F21D2AB96000F0551 /* ThirdViewController.swift */; };
-		B322DC6221D2B978000F0551 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6121D2B978000F0551 /* FourthViewController.swift */; };
-		B322DC6421D2BCCC000F0551 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6321D2BCCC000F0551 /* FifthViewController.swift */; };
+		B322DC6021D2AB96000F0551 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC5F21D2AB96000F0551 /* SignInViewController.swift */; };
+		B322DC6221D2B978000F0551 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6121D2B978000F0551 /* RegisterViewController.swift */; };
+		B322DC6421D2BCCC000F0551 /* BerksBucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6321D2BCCC000F0551 /* BerksBucks.swift */; };
+		B322DC6621D3040C000F0551 /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6521D3040C000F0551 /* ImportViewController.swift */; };
+		B322DC6821D31FF4000F0551 /* ProfileSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6721D31FF4000F0551 /* ProfileSetupViewController.swift */; };
+		B322DCB121D468BE000F0551 /* Berks Wallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B322DCAF21D468BE000F0551 /* Berks Wallet.xcdatamodeld */; };
+		B322DCB321D4B4DC000F0551 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B322DCB221D4B4DC000F0551 /* GoogleService-Info.plist */; };
+		B323F0D021D7793800209F15 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323F0CF21D7793800209F15 /* ResetPassword.swift */; };
+		B33BE848224898D4004A8CB1 /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE847224898D4004A8CB1 /* SideMenuViewController.storyboard */; };
+		B33BE84A224899EC004A8CB1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BE849224899EC004A8CB1 /* SideMenuViewController.swift */; };
+		B33BE84D22489A6E004A8CB1 /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE84B22489A6D004A8CB1 /* MainMenu.storyboard */; };
+		B33BE84E22489A6E004A8CB1 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BE84C22489A6E004A8CB1 /* MainMenu.swift */; };
+		B33BE8602249F4AA004A8CB1 /* SettingsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */; };
+		B33BE8622249F4C3004A8CB1 /* SettingsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */; };
+		B33BE865224A01A3004A8CB1 /* BerksBucks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */; };
+		B3506ACA228D8B5300D3432B /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3506AC9228D8B5300D3432B /* Logout.swift */; };
+		B3506ACC228D8BA100D3432B /* Logout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3506ACB228D8BA100D3432B /* Logout.storyboard */; };
+		B351A284228CC88100E79225 /* Data_Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = B351A283228CC88100E79225 /* Data_Access.swift */; };
+		B369266222284B060081CA89 /* SampleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B369266122284B060081CA89 /* SampleTableCell.swift */; };
+		B3761573224B89E7002756CC /* jukebox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3761572224B89E7002756CC /* jukebox.storyboard */; };
+		B3761575224B8AB0002756CC /* jukebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3761574224B8AB0002756CC /* jukebox.swift */; };
+		B3AC52DE2220B06B002B828C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC52DD2220B06B002B828C /* MainViewController.swift */; };
+		B3F0821E2227C5A500369854 /*  Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0821D2227C5A500369854 /*  Storyboardable.swift */; };
+		B8A10C075044A87F1F3ED0CA /* Pods_Berks_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC30BCB1B5B6B6FD52F1DDF /* Pods_Berks_Wallet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +60,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0497DB8F88CB8B87E29D5091 /* Pods-Berks WalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berks WalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berks WalletTests/Pods-Berks WalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EC30BCB1B5B6B6FD52F1DDF /* Pods_Berks_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berks_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFC3EBE84B6F82CDAA3FCD7 /* Pods-Berks WalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berks WalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berks WalletTests/Pods-Berks WalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C7C1A7292F3A2E4FBBE11DB /* Pods-Berks WalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berks WalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berks WalletUITests/Pods-Berks WalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34550545D5DA9248CBD71AAC /* Pods_Berks_WalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berks_WalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458D379F7FD0FB7F4282AD86 /* Pods-Berks Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berks Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berks Wallet/Pods-Berks Wallet.debug.xcconfig"; sourceTree = "<group>"; };
+		629DF9FF92130D8089011DE2 /* Pods-Berks WalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berks WalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Berks WalletUITests/Pods-Berks WalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		648941E7D02A603A3013FFB1 /* Pods-Berks Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berks Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Berks Wallet/Pods-Berks Wallet.release.xcconfig"; sourceTree = "<group>"; };
+		7AA9C5C2443685CF6FA4D73E /* Pods_Berks_WalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berks_WalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B322DC2C21D184F5000F0551 /* Berks Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berks Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B322DC2F21D184F5000F0551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B322DC3121D184F5000F0551 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B322DC3321D184F5000F0551 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B322DC3621D184F5000F0551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B322DC3821D184F6000F0551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B322DC3B21D184F6000F0551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,9 +82,29 @@
 		B322DC4D21D184F6000F0551 /* Berks WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Berks WalletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B322DC5121D184F6000F0551 /* Berks_WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berks_WalletUITests.swift; sourceTree = "<group>"; };
 		B322DC5321D184F6000F0551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B322DC5F21D2AB96000F0551 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		B322DC6121D2B978000F0551 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		B322DC6321D2BCCC000F0551 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		B322DC5F21D2AB96000F0551 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B322DC6121D2B978000F0551 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B322DC6321D2BCCC000F0551 /* BerksBucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerksBucks.swift; sourceTree = "<group>"; };
+		B322DC6521D3040C000F0551 /* ImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
+		B322DC6721D31FF4000F0551 /* ProfileSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupViewController.swift; sourceTree = "<group>"; };
+		B322DCB021D468BE000F0551 /* Berks Wallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Berks Wallet.xcdatamodel"; sourceTree = "<group>"; };
+		B322DCB221D4B4DC000F0551 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B323F0CF21D7793800209F15 /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		B33BE847224898D4004A8CB1 /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
+		B33BE849224899EC004A8CB1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		B33BE84B22489A6D004A8CB1 /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
+		B33BE84C22489A6E004A8CB1 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsUI.storyboard; sourceTree = "<group>"; };
+		B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUI.swift; sourceTree = "<group>"; };
+		B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BerksBucks.storyboard; sourceTree = "<group>"; };
+		B3506AC9228D8B5300D3432B /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		B3506ACB228D8BA100D3432B /* Logout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Logout.storyboard; sourceTree = "<group>"; };
+		B351A283228CC88100E79225 /* Data_Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Access.swift; sourceTree = "<group>"; };
+		B369266122284B060081CA89 /* SampleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableCell.swift; sourceTree = "<group>"; };
+		B3761572224B89E7002756CC /* jukebox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = jukebox.storyboard; sourceTree = "<group>"; };
+		B3761574224B8AB0002756CC /* jukebox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox.swift; sourceTree = "<group>"; };
+		B3AC52DD2220B06B002B828C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B3F0821D2227C5A500369854 /*  Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Storyboardable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A10C075044A87F1F3ED0CA /* Pods_Berks_Wallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB6716EA121DDEED7111EC6 /* Pods_Berks_WalletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +128,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44187EDBA0601A97AD72242C /* Pods_Berks_WalletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B320AA2FC9E75D74AF795BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458D379F7FD0FB7F4282AD86 /* Pods-Berks Wallet.debug.xcconfig */,
+				648941E7D02A603A3013FFB1 /* Pods-Berks Wallet.release.xcconfig */,
+				2AFC3EBE84B6F82CDAA3FCD7 /* Pods-Berks WalletTests.debug.xcconfig */,
+				0497DB8F88CB8B87E29D5091 /* Pods-Berks WalletTests.release.xcconfig */,
+				629DF9FF92130D8089011DE2 /* Pods-Berks WalletUITests.debug.xcconfig */,
+				2C7C1A7292F3A2E4FBBE11DB /* Pods-Berks WalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DA2B4FAE0B501764A39245E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC30BCB1B5B6B6FD52F1DDF /* Pods_Berks_Wallet.framework */,
+				7AA9C5C2443685CF6FA4D73E /* Pods_Berks_WalletTests.framework */,
+				34550545D5DA9248CBD71AAC /* Pods_Berks_WalletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B322DC2321D184F5000F0551 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +165,8 @@
 				B322DC4521D184F6000F0551 /* Berks WalletTests */,
 				B322DC5021D184F6000F0551 /* Berks WalletUITests */,
 				B322DC2D21D184F5000F0551 /* Products */,
+				6B320AA2FC9E75D74AF795BB /* Pods */,
+				8DA2B4FAE0B501764A39245E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,16 +183,19 @@
 		B322DC2E21D184F5000F0551 /* Berks Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				B322DC2F21D184F5000F0551 /* AppDelegate.swift */,
-				B322DC3121D184F5000F0551 /* FirstViewController.swift */,
-				B322DC6321D2BCCC000F0551 /* FifthViewController.swift */,
-				B322DC3321D184F5000F0551 /* SecondViewController.swift */,
-				B322DC3521D184F5000F0551 /* Main.storyboard */,
-				B322DC3821D184F6000F0551 /* Assets.xcassets */,
+				B33BE85B2249E229004A8CB1 /* Helpers */,
 				B322DC3A21D184F6000F0551 /* LaunchScreen.storyboard */,
+				B322DC2F21D184F5000F0551 /* AppDelegate.swift */,
 				B322DC3D21D184F6000F0551 /* Info.plist */,
-				B322DC5F21D2AB96000F0551 /* ThirdViewController.swift */,
-				B322DC6121D2B978000F0551 /* FourthViewController.swift */,
+				B322DCAF21D468BE000F0551 /* Berks Wallet.xcdatamodeld */,
+				B322DC3821D184F6000F0551 /* Assets.xcassets */,
+				B33BE8582249E17B004A8CB1 /* Login */,
+				B3506AC8228D873900D3432B /* Logout */,
+				B33BE85A2249E1CE004A8CB1 /* Sidebar */,
+				B33BE8592249E192004A8CB1 /* Profile */,
+				B33BE85C2249F3E1004A8CB1 /* SettingsUI */,
+				B3761571224B8995002756CC /* Jukebox */,
+				B33BE8632249FE3D004A8CB1 /* Waves Wallet */,
 			);
 			path = "Berks Wallet";
 			sourceTree = "<group>";
@@ -137,6 +218,86 @@
 			path = "Berks WalletUITests";
 			sourceTree = "<group>";
 		};
+		B33BE8582249E17B004A8CB1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B322DC3521D184F5000F0551 /* Main.storyboard */,
+				B323F0CF21D7793800209F15 /* ResetPassword.swift */,
+				B322DC6721D31FF4000F0551 /* ProfileSetupViewController.swift */,
+				B322DC6121D2B978000F0551 /* RegisterViewController.swift */,
+				B322DC5F21D2AB96000F0551 /* SignInViewController.swift */,
+				B33BE84C22489A6E004A8CB1 /* MainMenu.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B33BE8592249E192004A8CB1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B3AC52DD2220B06B002B828C /* MainViewController.swift */,
+				B33BE84B22489A6D004A8CB1 /* MainMenu.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B33BE85A2249E1CE004A8CB1 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				B33BE847224898D4004A8CB1 /* SideMenuViewController.storyboard */,
+				B33BE849224899EC004A8CB1 /* SideMenuViewController.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		B33BE85B2249E229004A8CB1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B369266122284B060081CA89 /* SampleTableCell.swift */,
+				B351A283228CC88100E79225 /* Data_Access.swift */,
+				B3F0821D2227C5A500369854 /*  Storyboardable.swift */,
+				B322DCB221D4B4DC000F0551 /* GoogleService-Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B33BE85C2249F3E1004A8CB1 /* SettingsUI */ = {
+			isa = PBXGroup;
+			children = (
+				B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */,
+				B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */,
+			);
+			path = SettingsUI;
+			sourceTree = "<group>";
+		};
+		B33BE8632249FE3D004A8CB1 /* Waves Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */,
+				B322DC6321D2BCCC000F0551 /* BerksBucks.swift */,
+				B322DC6521D3040C000F0551 /* ImportViewController.swift */,
+				B322DC3121D184F5000F0551 /* FirstViewController.swift */,
+			);
+			path = "Waves Wallet";
+			sourceTree = "<group>";
+		};
+		B3506AC8228D873900D3432B /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				B3506AC9228D8B5300D3432B /* Logout.swift */,
+				B3506ACB228D8BA100D3432B /* Logout.storyboard */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		B3761571224B8995002756CC /* Jukebox */ = {
+			isa = PBXGroup;
+			children = (
+				B3761572224B89E7002756CC /* jukebox.storyboard */,
+				B3761574224B8AB0002756CC /* jukebox.swift */,
+			);
+			path = Jukebox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B322DC5621D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks Wallet" */;
 			buildPhases = (
+				5288DBFB581E0132077AC66C /* [CP] Check Pods Manifest.lock */,
 				B322DC2821D184F5000F0551 /* Sources */,
 				B322DC2921D184F5000F0551 /* Frameworks */,
 				B322DC2A21D184F5000F0551 /* Resources */,
+				C0D0A226489AB614FA28EE8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B322DC5921D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks WalletTests" */;
 			buildPhases = (
+				3B842E6E18EFCE00A7311149 /* [CP] Check Pods Manifest.lock */,
 				B322DC3E21D184F6000F0551 /* Sources */,
 				B322DC3F21D184F6000F0551 /* Frameworks */,
 				B322DC4021D184F6000F0551 /* Resources */,
@@ -179,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B322DC5C21D184F6000F0551 /* Build configuration list for PBXNativeTarget "Berks WalletUITests" */;
 			buildPhases = (
+				C32C8A8E1869B69B24904ADA /* [CP] Check Pods Manifest.lock */,
 				B322DC4921D184F6000F0551 /* Sources */,
 				B322DC4A21D184F6000F0551 /* Frameworks */,
 				B322DC4B21D184F6000F0551 /* Resources */,
@@ -205,13 +370,16 @@
 				TargetAttributes = {
 					B322DC2B21D184F5000F0551 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					B322DC4121D184F6000F0551 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = B322DC2B21D184F5000F0551;
 					};
 					B322DC4C21D184F6000F0551 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = B322DC2B21D184F5000F0551;
 					};
 				};
@@ -242,8 +410,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B322DC3C21D184F6000F0551 /* LaunchScreen.storyboard in Resources */,
+				B33BE84D22489A6E004A8CB1 /* MainMenu.storyboard in Resources */,
+				B322DCB321D4B4DC000F0551 /* GoogleService-Info.plist in Resources */,
+				B33BE865224A01A3004A8CB1 /* BerksBucks.storyboard in Resources */,
+				B3506ACC228D8BA100D3432B /* Logout.storyboard in Resources */,
 				B322DC3921D184F6000F0551 /* Assets.xcassets in Resources */,
+				B33BE848224898D4004A8CB1 /* SideMenuViewController.storyboard in Resources */,
 				B322DC3721D184F5000F0551 /* Main.storyboard in Resources */,
+				B33BE8602249F4AA004A8CB1 /* SettingsUI.storyboard in Resources */,
+				B3761573224B89E7002756CC /* jukebox.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,17 +438,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B842E6E18EFCE00A7311149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Berks WalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5288DBFB581E0132077AC66C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Berks Wallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D0A226489AB614FA28EE8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Berks Wallet/Pods-Berks Wallet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InteractiveSideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Berks Wallet/Pods-Berks Wallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32C8A8E1869B69B24904ADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Berks WalletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B322DC2821D184F5000F0551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B322DC6421D2BCCC000F0551 /* FifthViewController.swift in Sources */,
-				B322DC3421D184F5000F0551 /* SecondViewController.swift in Sources */,
+				B3761575224B8AB0002756CC /* jukebox.swift in Sources */,
+				B3506ACA228D8B5300D3432B /* Logout.swift in Sources */,
+				B33BE84A224899EC004A8CB1 /* SideMenuViewController.swift in Sources */,
+				B322DC6421D2BCCC000F0551 /* BerksBucks.swift in Sources */,
+				B322DCB121D468BE000F0551 /* Berks Wallet.xcdatamodeld in Sources */,
 				B322DC3021D184F5000F0551 /* AppDelegate.swift in Sources */,
-				B322DC6021D2AB96000F0551 /* ThirdViewController.swift in Sources */,
+				B323F0D021D7793800209F15 /* ResetPassword.swift in Sources */,
+				B3F0821E2227C5A500369854 /*  Storyboardable.swift in Sources */,
+				B322DC6021D2AB96000F0551 /* SignInViewController.swift in Sources */,
 				B322DC3221D184F5000F0551 /* FirstViewController.swift in Sources */,
-				B322DC6221D2B978000F0551 /* FourthViewController.swift in Sources */,
+				B33BE8622249F4C3004A8CB1 /* SettingsUI.swift in Sources */,
+				B322DC6221D2B978000F0551 /* RegisterViewController.swift in Sources */,
+				B322DC6621D3040C000F0551 /* ImportViewController.swift in Sources */,
+				B33BE84E22489A6E004A8CB1 /* MainMenu.swift in Sources */,
+				B322DC6821D31FF4000F0551 /* ProfileSetupViewController.swift in Sources */,
+				B369266222284B060081CA89 /* SampleTableCell.swift in Sources */,
+				B351A284228CC88100E79225 /* Data_Access.swift in Sources */,
+				B3AC52DE2220B06B002B828C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +742,10 @@
 		};
 		B322DC5721D184F6000F0551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458D379F7FD0FB7F4282AD86 /* Pods-Berks Wallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CWG8L79R23;
 				INFOPLIST_FILE = "Berks Wallet/Info.plist";
@@ -457,15 +755,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B322DC5821D184F6000F0551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648941E7D02A603A3013FFB1 /* Pods-Berks Wallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CWG8L79R23;
 				INFOPLIST_FILE = "Berks Wallet/Info.plist";
@@ -475,13 +776,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		B322DC5A21D184F6000F0551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AFC3EBE84B6F82CDAA3FCD7 /* Pods-Berks WalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,7 +797,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berks Wallet.app/Berks Wallet";
 			};
@@ -503,6 +805,7 @@
 		};
 		B322DC5B21D184F6000F0551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0497DB8F88CB8B87E29D5091 /* Pods-Berks WalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,7 +819,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berks Wallet.app/Berks Wallet";
 			};
@@ -524,6 +827,7 @@
 		};
 		B322DC5D21D184F6000F0551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629DF9FF92130D8089011DE2 /* Pods-Berks WalletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,7 +840,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Berks Wallet";
 			};
@@ -544,6 +848,7 @@
 		};
 		B322DC5E21D184F6000F0551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7C1A7292F3A2E4FBBE11DB /* Pods-Berks WalletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,7 +861,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ApolloLabs.Berks-WalletUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Berks Wallet";
 			};
@@ -602,6 +907,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B322DCAF21D468BE000F0551 /* Berks Wallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B322DCB021D468BE000F0551 /* Berks Wallet.xcdatamodel */,
+			);
+			currentVersion = B322DCB021D468BE000F0551 /* Berks Wallet.xcdatamodel */;
+			name = "Berks Wallet.xcdatamodeld";
+			path = "Berks Wallet/Helpers/Berks Wallet.xcdatamodeld";
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B322DC2421D184F5000F0551 /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ImportViewController.swift
 //  Berks Wallet
 //
 //  Created by Deverick Simpson on 12/24/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class ImportViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

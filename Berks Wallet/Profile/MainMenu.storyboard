@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kCe-tA-DYp">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="XXc-3z-hj0">
+            <objects>
+                <viewController storyboardIdentifier="MainMenu" title="Home" id="kCe-tA-DYp" customClass="MainMenu" customModule="Berks_Wallet" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bee-0f-QMn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8q9-2m-oaU">
+                                <rect key="frame" x="37" y="34" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="ezd-p9-AZV"/>
+                                    <constraint firstAttribute="width" secondItem="8q9-2m-oaU" secondAttribute="height" multiplier="1:1" id="z7n-lH-ezv"/>
+                                </constraints>
+                                <state key="normal" image="Menu"/>
+                                <connections>
+                                    <action selector="openMenu:" destination="Rik-vd-wgQ" eventType="touchUpInside" id="EWf-Wa-9JB"/>
+                                    <action selector="openMenu:" destination="kCe-tA-DYp" eventType="touchUpInside" id="F9O-NP-UNO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upcoming Appoinment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkV-ym-sJL">
+                                <rect key="frame" x="117" y="449" width="181" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.57988870140000004" green="0.76514703039999998" blue="0.33715075249999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLa-5A-hcY">
+                                <rect key="frame" x="165" y="37" width="85" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.57988870140000004" green="0.76514703039999998" blue="0.33715075249999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blackbg-trans-600" translatesAutoresizingMaskIntoConstraints="NO" id="0Ju-fC-faH">
+                                <rect key="frame" x="87" y="111" width="240" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8q9-2m-oaU" firstAttribute="top" secondItem="Kc9-m1-lM2" secondAttribute="top" id="JRX-iP-1mR"/>
+                            <constraint firstItem="8q9-2m-oaU" firstAttribute="leading" secondItem="Kc9-m1-lM2" secondAttribute="leading" constant="6" id="T0F-XP-Eic"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kc9-m1-lM2"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="nav" prompt="hello" id="fSg-K2-jW4">
+                        <barButtonItem key="backBarButtonItem" title="back" id="3nO-Om-KHR"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Obq-0h-SGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Rik-vd-wgQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="-609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu" width="24" height="17"/>
+        <image name="blackbg-trans-600" width="600" height="400"/>
+    </resources>
+</document>
