@@ -28,8 +28,26 @@ class MainMenu: UIViewController, SideMenuItemContent, Storyboardable {
         return .lightContent
     }
 
-    // Show side menu on menu button click
+    // Show side menu on menu swipe right
     @IBAction func openMenu(_ sender: UIButton) {
         showSideMenu()
     }
+    
+    @IBAction func Schedule_Action(_ sender: Any) {
+        
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Appointment", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "Appointment")
+        self.present(newViewController, animated: true, completion: nil)
+        
+        
+    }
+    
+    @IBAction func History_Action(_ sender: Any) {
+        
+        let storyBoard: UIStoryboard = UIStoryboard(name: "HistoryView", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "HistoryView")
+        self.present(newViewController, animated: true, completion: nil)
+
+    }
+    
 }

@@ -41,8 +41,20 @@ class Data_Access{
         }
     }
     
-
     
+    struct history_object {
+        var amount: Double
+        var first_name: String
+        var last_name: String
+        var date: Date
+        
+        init(amount: Double, first_name: String, last_name: String, date: Date){
+            self.amount = amount
+            self.first_name = first_name
+            self.last_name = last_name
+            self.date = date
+        }
+    }
     
     /*
      *  Discuss with Cory whether we ant to store customer emails
@@ -68,6 +80,8 @@ class Data_Access{
     
     var arrayOfBarbers: [barber] = []
     var arrayOfClients: [client] = []
+    var arrayOfClientHistory: [history_object] = []
+ 
     
     /*
      *  Getter Methods for DB
@@ -92,8 +106,58 @@ class Data_Access{
         }
     }
 
-
+    func uploadNewClientPortfolio(first_name: String, last_name: String, phoneNum: Int, pBarber: String, birthday: Int){
+        let client_collection = db.collection("client")
+        
+        // Add a new document with a generated ID
+        var ref: DocumentReference? = nil
+        ref = client_collection.addDocument(data: [
+            "first_name": first_name,
+            "last_name": last_name,
+            "phoneNum": phoneNum,
+            "pBarber": pBarber,
+            "birthday": birthday
+        ]) { err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                print("Document added with ID: \(ref!.documentID)")
+            }
+        }
+    }
     
+    
+//    func userHistoryList() -> history_object{
+//
+//
+//
+//    }
+
+    /*
+     *
+     *  Getter Method to populate client history from DB
+     *
+     */
+    func buildUserHistoryList(completion: @escaping () -> Void) {
+        return db.collection("appointment").getDocuments() { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+                for document in querySnapshot!.documents {
+                    let single_history_object = history_object(amount: document.get("price_final") as! Double, first_name: document.get("first_name") as! String, last_name: document.get("last_name") as! String, date: document.get("start_time") as! Date);
+                    self.arrayOfClientHistory.append(single_history_object)
+                }
+            }
+            completion()
+        }
+    }
+    
+    
+    
+    
+    func userHistoryCount() -> Int{
+        return arrayOfClientHistory.count
+    }
 
     /*
      * Saving user profile used for registration period but could also
@@ -198,8 +262,7 @@ class Data_Access{
     /* What happens when barber list is empty?  Seg faul the shit out
      * of it thats what.  Sanity check necessary.
      */
-    func retBarberFromIdx(value: Int) -> String {
-        if(arrayOfBarbers[value].first_name != "" && arrayOfBarbers[value].last_name != ""){
+    func retBarberFromIdx(value: Int) -> String {        if(arrayOfBarbers[value].first_name != "" && arrayOfBarbers[value].last_name != ""){
                     return arrayOfBarbers[value].first_name + " " + arrayOfBarbers[value].last_name
         }else{
             print("Barber array list found empty.")
@@ -304,6 +367,7 @@ class Data_Access{
         ref = schedule_collection.addDocument(data: [
             "first_name": "Ada",
             "last_name": "Lovelace",
+            "email": "tom@openair.com",
             "id": "1815"
         ]) { err in
             if let err = err {
@@ -330,25 +394,7 @@ class Data_Access{
     }
     
     
-    func uploadNewClient(first_name: String, last_name: String, phoneNum: Int, pBarber: String, birthday: Int){
-        let client_collection = db.collection("client")
-        
-        // Add a new document with a generated ID
-        var ref: DocumentReference? = nil
-        ref = client_collection.addDocument(data: [
-            "first_name": first_name,
-            "last_name": last_name,
-            "phoneNum": phoneNum,
-            "pBarber": pBarber,
-            "birthday": birthday
-        ]) { err in
-            if let err = err {
-                print("Error adding document: \(err)")
-            } else {
-                print("Document added with ID: \(ref!.documentID)")
-            }
-        }
-    }
+
     
     
 }

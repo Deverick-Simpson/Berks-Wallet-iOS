@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -55,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204" y="-220.83958020989508"/>
+            <point key="canvasLocation" x="-260" y="-520"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="tiM-oQ-23a">
@@ -247,7 +248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUQ-5v-LrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="982" y="247"/>
+            <point key="canvasLocation" x="982" y="315"/>
         </scene>
         <!--Import View Controller-->
         <scene sceneID="0fX-za-zc0">
@@ -325,7 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLe-el-JLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1872.8" y="-520.38980509745136"/>
+            <point key="canvasLocation" x="2055" y="-520"/>
         </scene>
         <!--Reset Password View Controller-->
         <scene sceneID="gzm-cW-0vH">
@@ -388,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ems-nN-EUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="982" y="-1280"/>
+            <point key="canvasLocation" x="298" y="-1307"/>
         </scene>
         <!--Profile Setup View Controller-->
         <scene sceneID="jHg-0B-fcA">
@@ -487,9 +488,8 @@
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wRS-nB-fum"/>
         <segue reference="iEo-es-InM"/>
         <segue reference="X8N-Ta-khi"/>
-        <segue reference="rcB-p2-Z7j"/>
+        <segue reference="4e4-KF-iCc"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -22,7 +22,6 @@
 		B322DC6621D3040C000F0551 /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6521D3040C000F0551 /* ImportViewController.swift */; };
 		B322DC6821D31FF4000F0551 /* ProfileSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322DC6721D31FF4000F0551 /* ProfileSetupViewController.swift */; };
 		B322DCB121D468BE000F0551 /* Berks Wallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B322DCAF21D468BE000F0551 /* Berks Wallet.xcdatamodeld */; };
-		B322DCB321D4B4DC000F0551 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B322DCB221D4B4DC000F0551 /* GoogleService-Info.plist */; };
 		B323F0D021D7793800209F15 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323F0CF21D7793800209F15 /* ResetPassword.swift */; };
 		B33BE848224898D4004A8CB1 /* SideMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE847224898D4004A8CB1 /* SideMenuViewController.storyboard */; };
 		B33BE84A224899EC004A8CB1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BE849224899EC004A8CB1 /* SideMenuViewController.swift */; };
@@ -31,6 +30,7 @@
 		B33BE8602249F4AA004A8CB1 /* SettingsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */; };
 		B33BE8622249F4C3004A8CB1 /* SettingsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */; };
 		B33BE865224A01A3004A8CB1 /* BerksBucks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */; };
+		B34D2C9722D7E5A7002F7494 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B34D2C9622D7E5A7002F7494 /* GoogleService-Info.plist */; };
 		B3506ACA228D8B5300D3432B /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3506AC9228D8B5300D3432B /* Logout.swift */; };
 		B3506ACC228D8BA100D3432B /* Logout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3506ACB228D8BA100D3432B /* Logout.storyboard */; };
 		B351A284228CC88100E79225 /* Data_Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = B351A283228CC88100E79225 /* Data_Access.swift */; };
@@ -39,6 +39,11 @@
 		B3761575224B8AB0002756CC /* jukebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3761574224B8AB0002756CC /* jukebox.swift */; };
 		B3AC52DE2220B06B002B828C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC52DD2220B06B002B828C /* MainViewController.swift */; };
 		B3F0821E2227C5A500369854 /*  Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0821D2227C5A500369854 /*  Storyboardable.swift */; };
+		B3FF273022E2476F0060F0E5 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FF272F22E2476F0060F0E5 /* Appointment.swift */; };
+		B3FF273222E2477A0060F0E5 /* Appointment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FF273122E2477A0060F0E5 /* Appointment.storyboard */; };
+		B3FF273522E255E70060F0E5 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FF273422E255E70060F0E5 /* HistoryView.swift */; };
+		B3FF273722E255F30060F0E5 /* HistoryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FF273622E255F30060F0E5 /* HistoryView.storyboard */; };
+		B3FF273922E266E90060F0E5 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FF273822E266E90060F0E5 /* ReceiptTableViewCell.swift */; };
 		B8A10C075044A87F1F3ED0CA /* Pods_Berks_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC30BCB1B5B6B6FD52F1DDF /* Pods_Berks_Wallet.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,15 +93,15 @@
 		B322DC6521D3040C000F0551 /* ImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
 		B322DC6721D31FF4000F0551 /* ProfileSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupViewController.swift; sourceTree = "<group>"; };
 		B322DCB021D468BE000F0551 /* Berks Wallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Berks Wallet.xcdatamodel"; sourceTree = "<group>"; };
-		B322DCB221D4B4DC000F0551 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B323F0CF21D7793800209F15 /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 		B33BE847224898D4004A8CB1 /* SideMenuViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenuViewController.storyboard; sourceTree = "<group>"; };
 		B33BE849224899EC004A8CB1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		B33BE84B22489A6D004A8CB1 /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
-		B33BE84C22489A6E004A8CB1 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		B33BE84C22489A6E004A8CB1 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenu.swift; path = "../New Group1/MainMenu.swift"; sourceTree = "<group>"; };
 		B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsUI.storyboard; sourceTree = "<group>"; };
 		B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUI.swift; sourceTree = "<group>"; };
 		B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BerksBucks.storyboard; sourceTree = "<group>"; };
+		B34D2C9622D7E5A7002F7494 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3506AC9228D8B5300D3432B /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		B3506ACB228D8BA100D3432B /* Logout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Logout.storyboard; sourceTree = "<group>"; };
 		B351A283228CC88100E79225 /* Data_Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Access.swift; sourceTree = "<group>"; };
@@ -105,6 +110,11 @@
 		B3761574224B8AB0002756CC /* jukebox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox.swift; sourceTree = "<group>"; };
 		B3AC52DD2220B06B002B828C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B3F0821D2227C5A500369854 /*  Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Storyboardable.swift"; sourceTree = "<group>"; };
+		B3FF272F22E2476F0060F0E5 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		B3FF273122E2477A0060F0E5 /* Appointment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Appointment.storyboard; sourceTree = "<group>"; };
+		B3FF273422E255E70060F0E5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B3FF273622E255F30060F0E5 /* HistoryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HistoryView.storyboard; sourceTree = "<group>"; };
+		B3FF273822E266E90060F0E5 /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +193,11 @@
 		B322DC2E21D184F5000F0551 /* Berks Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				B322DC3521D184F5000F0551 /* Main.storyboard */,
+				B3AC52DD2220B06B002B828C /* MainViewController.swift */,
+				B32B317D22E3BB90007E14BE /* Main-View */,
+				B3FF273322E255C40060F0E5 /* History */,
+				B3FF272D22E246C30060F0E5 /* Appointment */,
 				B33BE85B2249E229004A8CB1 /* Helpers */,
 				B322DC3A21D184F6000F0551 /* LaunchScreen.storyboard */,
 				B322DC2F21D184F5000F0551 /* AppDelegate.swift */,
@@ -218,15 +233,21 @@
 			path = "Berks WalletUITests";
 			sourceTree = "<group>";
 		};
+		B32B317D22E3BB90007E14BE /* Main-View */ = {
+			isa = PBXGroup;
+			children = (
+				B33BE84C22489A6E004A8CB1 /* MainMenu.swift */,
+			);
+			path = "Main-View";
+			sourceTree = "<group>";
+		};
 		B33BE8582249E17B004A8CB1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				B322DC3521D184F5000F0551 /* Main.storyboard */,
 				B323F0CF21D7793800209F15 /* ResetPassword.swift */,
 				B322DC6721D31FF4000F0551 /* ProfileSetupViewController.swift */,
 				B322DC6121D2B978000F0551 /* RegisterViewController.swift */,
 				B322DC5F21D2AB96000F0551 /* SignInViewController.swift */,
-				B33BE84C22489A6E004A8CB1 /* MainMenu.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -234,7 +255,6 @@
 		B33BE8592249E192004A8CB1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				B3AC52DD2220B06B002B828C /* MainViewController.swift */,
 				B33BE84B22489A6D004A8CB1 /* MainMenu.storyboard */,
 			);
 			path = Profile;
@@ -254,8 +274,8 @@
 			children = (
 				B369266122284B060081CA89 /* SampleTableCell.swift */,
 				B351A283228CC88100E79225 /* Data_Access.swift */,
+				B34D2C9622D7E5A7002F7494 /* GoogleService-Info.plist */,
 				B3F0821D2227C5A500369854 /*  Storyboardable.swift */,
-				B322DCB221D4B4DC000F0551 /* GoogleService-Info.plist */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -283,8 +303,8 @@
 		B3506AC8228D873900D3432B /* Logout */ = {
 			isa = PBXGroup;
 			children = (
-				B3506AC9228D8B5300D3432B /* Logout.swift */,
 				B3506ACB228D8BA100D3432B /* Logout.storyboard */,
+				B3506AC9228D8B5300D3432B /* Logout.swift */,
 			);
 			path = Logout;
 			sourceTree = "<group>";
@@ -296,6 +316,25 @@
 				B3761574224B8AB0002756CC /* jukebox.swift */,
 			);
 			path = Jukebox;
+			sourceTree = "<group>";
+		};
+		B3FF272D22E246C30060F0E5 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				B3FF273122E2477A0060F0E5 /* Appointment.storyboard */,
+				B3FF272F22E2476F0060F0E5 /* Appointment.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		B3FF273322E255C40060F0E5 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B3FF273622E255F30060F0E5 /* HistoryView.storyboard */,
+				B3FF273422E255E70060F0E5 /* HistoryView.swift */,
+				B3FF273822E266E90060F0E5 /* ReceiptTableViewCell.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,14 +450,16 @@
 			files = (
 				B322DC3C21D184F6000F0551 /* LaunchScreen.storyboard in Resources */,
 				B33BE84D22489A6E004A8CB1 /* MainMenu.storyboard in Resources */,
-				B322DCB321D4B4DC000F0551 /* GoogleService-Info.plist in Resources */,
 				B33BE865224A01A3004A8CB1 /* BerksBucks.storyboard in Resources */,
 				B3506ACC228D8BA100D3432B /* Logout.storyboard in Resources */,
 				B322DC3921D184F6000F0551 /* Assets.xcassets in Resources */,
 				B33BE848224898D4004A8CB1 /* SideMenuViewController.storyboard in Resources */,
+				B3FF273222E2477A0060F0E5 /* Appointment.storyboard in Resources */,
 				B322DC3721D184F5000F0551 /* Main.storyboard in Resources */,
+				B34D2C9722D7E5A7002F7494 /* GoogleService-Info.plist in Resources */,
 				B33BE8602249F4AA004A8CB1 /* SettingsUI.storyboard in Resources */,
 				B3761573224B89E7002756CC /* jukebox.storyboard in Resources */,
+				B3FF273722E255F30060F0E5 /* HistoryView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,12 +605,15 @@
 				B3F0821E2227C5A500369854 /*  Storyboardable.swift in Sources */,
 				B322DC6021D2AB96000F0551 /* SignInViewController.swift in Sources */,
 				B322DC3221D184F5000F0551 /* FirstViewController.swift in Sources */,
+				B3FF273022E2476F0060F0E5 /* Appointment.swift in Sources */,
 				B33BE8622249F4C3004A8CB1 /* SettingsUI.swift in Sources */,
 				B322DC6221D2B978000F0551 /* RegisterViewController.swift in Sources */,
 				B322DC6621D3040C000F0551 /* ImportViewController.swift in Sources */,
+				B3FF273522E255E70060F0E5 /* HistoryView.swift in Sources */,
 				B33BE84E22489A6E004A8CB1 /* MainMenu.swift in Sources */,
 				B322DC6821D31FF4000F0551 /* ProfileSetupViewController.swift in Sources */,
 				B369266222284B060081CA89 /* SampleTableCell.swift in Sources */,
+				B3FF273922E266E90060F0E5 /* ReceiptTableViewCell.swift in Sources */,
 				B351A284228CC88100E79225 /* Data_Access.swift in Sources */,
 				B3AC52DE2220B06B002B828C /* MainViewController.swift in Sources */,
 			);

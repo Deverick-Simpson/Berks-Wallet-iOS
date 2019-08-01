@@ -16,13 +16,19 @@ class ProfileSetupViewController: UIViewController, UIPickerViewDelegate, UIPick
     
     let db_api = Data_Access()
     
+    //Client Outlets for Details
     @IBOutlet weak var phone: PhoneNumberTextField!
     @IBOutlet weak var userbirthday: UIDatePicker!
-    @IBOutlet weak var barberMenu: UIPickerView!
-
     @IBOutlet weak var first_name: UITextField!
     @IBOutlet weak var last_name: UITextField!
-
+    
+    //Barber Specs
+    @IBOutlet weak var barberMenu: UIPickerView!
+    
+    /*
+     * bug here  order list or set defsult
+     */
+    var preferredBarber: String = ""
 
     
     
@@ -47,6 +53,15 @@ class ProfileSetupViewController: UIViewController, UIPickerViewDelegate, UIPick
         return db_api.retBarberFromIdx(value: row)
     }
     
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        guard row < db_api.retCount() else {
+            return
+        }
+        preferredBarber = db_api.retBarberFromIdx(value: row).lowercased()
+        
+    }
+    
+    
     //Function completion handler for BarberList
     func countHandler(value: Int) {
         print("Function completion handler count value: \(db_api.retCount())")
@@ -54,38 +69,30 @@ class ProfileSetupViewController: UIViewController, UIPickerViewDelegate, UIPick
     
     //Function completion handler for BarberList
     func barberHandler() {
-        print("Function printing current barber list:")
-        db_api.printBarberArray()
+
         // Connect barber list dataset:
         barberMenu.delegate = self
         barberMenu.dataSource = self
+
+        //phone.becomeFirstResponder()
+        userbirthday.setValue(UIColor.white, forKeyPath: "textColor")
+        userbirthday.setValue(false, forKey: "highlightsToday")
         
+        barberMenu.selectRow(0, inComponent: 0, animated: true)
+        preferredBarber = db_api.retBarberFromIdx(value: 0).lowercased()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        phone.becomeFirstResponder()
-        userbirthday.setValue(UIColor.white, forKeyPath: "textColor")
-        userbirthday.setValue(false, forKey: "highlightsToday")
-        
         //Async process to build barber list
         db_api.popBarberCount(completion: countHandler)
         db_api.buildAllBarbersArray(completion: barberHandler)
-        
-        //DB Check
-        //db_api.uploadAda()
-    
-    
-        // Do any additional setup after loading the view, typically from a nib.
-
-
     }
     
     override func viewDidAppear(_ animated: Bool){
-//        super.viewDidAppear(animated)
-//        if Auth.auth().currentUser != nil {
-//            self.performSegue(withIdentifier: "home", sender: nil)
-//        }
+
+
+        
     }
     
     @IBAction func datePickerChanged(_ sender: UIDatePicker) {
@@ -101,11 +108,6 @@ class ProfileSetupViewController: UIViewController, UIPickerViewDelegate, UIPick
     }
 
     
-    
-    func saveProfile(){
-        
-    }
-
     @IBAction func submitProfile(_ sender: Any) {
         //Here we want to validate the user data input and submit to the database if no duplicates exist.   Some things to consider.  Do we need the phone number??  There should be apis to pull the # from rthe device but doesnt seem to exist.  Not exporting that service to to cost factors.  Will have to validate user phone with 2fa text and auto generated code.
         
@@ -120,15 +122,16 @@ class ProfileSetupViewController: UIViewController, UIPickerViewDelegate, UIPick
                 // if you have one. Use getTokenWithCompletion:completion: instead.
                 let uid = user.uid
                 let email = user.email
+ 
                 //let photoURL = user.photoURL
                 //let phoneNumber = user.phoneNumber
                 //getting input from Text Field
                 
                 db_api.parsePhone(phoneNum: phone.text ?? "")
                 if db_api.isValidEmail(testStr: email!){
-                    let resp = db_api.saveUserProfile(firstName: first_name.text!, lastName: last_name.text!, phone: phone.text ?? "", email: email!, pBarber: "Cory77", birthday: 121 )
+                    let resp = db_api.saveUserProfile(firstName: first_name.text!, lastName: last_name.text!, phone: phone.text ?? "", email: email!, pBarber: preferredBarber ?? "" , birthday: 121 )
                     print("Profile DB response value is: \(resp)")
-//                    self.performSegue(withIdentifier: "signupToHome", sender: self)[cgxvjbg
+                    self.performSegue(withIdentifier: "signupToHome", sender: self)
                 }
                 else{
                     print("invalide EmailID")
