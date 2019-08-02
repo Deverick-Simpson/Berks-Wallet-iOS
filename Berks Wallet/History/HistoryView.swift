@@ -16,10 +16,14 @@ class HistoryView: UIViewController, UITableViewDataSource, UITableViewDelegate{
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        db_api.buildUserHistoryList(completion: printholder)
-        // This view controller itself will provide the delegate methods and row data for the table view.
 
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool){
+        super.viewDidAppear(animated)
+        db_api.buildUserHistoryList(completion: printholder)
+        // This view controller itself will provide the delegate methods and row data for the table view.
     }
     
     func printholder(){

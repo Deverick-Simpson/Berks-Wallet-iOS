@@ -23,7 +23,9 @@ class Data_Access{
      */
     var count: Int = 0
     let phoneNumberKit = PhoneNumberKit()
-    
+    var amount: Double = 0
+    var first_name: String = ""
+    var date: Timestamp = Timestamp()
     
     struct barber {
         var id: String
@@ -46,9 +48,9 @@ class Data_Access{
         var amount: Double
         var first_name: String
         var last_name: String
-        var date: Date
+        var date: Timestamp
         
-        init(amount: Double, first_name: String, last_name: String, date: Date){
+        init(amount: Double, first_name: String, last_name: String, date: Timestamp){
             self.amount = amount
             self.first_name = first_name
             self.last_name = last_name
@@ -125,13 +127,6 @@ class Data_Access{
             }
         }
     }
-    
-    
-//    func userHistoryList() -> history_object{
-//
-//
-//
-//    }
 
     /*
      *
@@ -139,12 +134,13 @@ class Data_Access{
      *
      */
     func buildUserHistoryList(completion: @escaping () -> Void) {
+        //Start using some userID as filter if none exist.
         return db.collection("appointment").getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
             } else {
                 for document in querySnapshot!.documents {
-                    let single_history_object = history_object(amount: document.get("price_final") as! Double, first_name: document.get("first_name") as! String, last_name: document.get("last_name") as! String, date: document.get("start_time") as! Date);
+                    let single_history_object = history_object(amount: document.get("price_final") as! Double, first_name: document.get("first_name") as! String, last_name: document.get("last_name") as! String, date: document.get("start_time") as! Timestamp);
                     self.arrayOfClientHistory.append(single_history_object)
                 }
             }
