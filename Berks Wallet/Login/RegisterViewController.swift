@@ -99,7 +99,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                     }
                 } else if error == nil {
                     //self.db_api.uploadNewClient()
-                    self.performSegue(withIdentifier: "signtologin", sender: self)
+                    self.performSegue(withIdentifier: "signupToHome", sender: self)
                 }
 
             }
