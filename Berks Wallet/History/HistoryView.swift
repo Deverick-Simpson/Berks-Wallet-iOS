@@ -39,19 +39,18 @@ class HistoryView: UIViewController, UITableViewDataSource, UITableViewDelegate{
        return db_api.userHistoryCount()
         
     }
-
     
     // create a cell for each table view row
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier") as! ReceiptTableViewCell
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReceiptTableViewCell") as! ReceiptTableViewCell
+
         let text = db_api.arrayOfClientHistory[indexPath.row]
-        
+
         //add last name
         cell.barber_name.text = text.first_name
-        
+
         return cell
         
         
