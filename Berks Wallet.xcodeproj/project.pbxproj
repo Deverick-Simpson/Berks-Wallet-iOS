@@ -30,13 +30,13 @@
 		B33BE8602249F4AA004A8CB1 /* SettingsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */; };
 		B33BE8622249F4C3004A8CB1 /* SettingsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */; };
 		B33BE865224A01A3004A8CB1 /* BerksBucks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */; };
-		B34D2C9722D7E5A7002F7494 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B34D2C9622D7E5A7002F7494 /* GoogleService-Info.plist */; };
 		B3506ACA228D8B5300D3432B /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3506AC9228D8B5300D3432B /* Logout.swift */; };
 		B3506ACC228D8BA100D3432B /* Logout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3506ACB228D8BA100D3432B /* Logout.storyboard */; };
 		B351A284228CC88100E79225 /* Data_Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = B351A283228CC88100E79225 /* Data_Access.swift */; };
 		B369266222284B060081CA89 /* SampleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B369266122284B060081CA89 /* SampleTableCell.swift */; };
 		B3761573224B89E7002756CC /* jukebox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3761572224B89E7002756CC /* jukebox.storyboard */; };
 		B3761575224B8AB0002756CC /* jukebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3761574224B8AB0002756CC /* jukebox.swift */; };
+		B38E546C22F373C800B56BB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B38E546B22F373C800B56BB1 /* GoogleService-Info.plist */; };
 		B3AC52DE2220B06B002B828C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC52DD2220B06B002B828C /* MainViewController.swift */; };
 		B3F0821E2227C5A500369854 /*  Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0821D2227C5A500369854 /*  Storyboardable.swift */; };
 		B3FF273022E2476F0060F0E5 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FF272F22E2476F0060F0E5 /* Appointment.swift */; };
@@ -101,13 +101,13 @@
 		B33BE85F2249F4AA004A8CB1 /* SettingsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsUI.storyboard; sourceTree = "<group>"; };
 		B33BE8612249F4C3004A8CB1 /* SettingsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUI.swift; sourceTree = "<group>"; };
 		B33BE864224A01A3004A8CB1 /* BerksBucks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BerksBucks.storyboard; sourceTree = "<group>"; };
-		B34D2C9622D7E5A7002F7494 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3506AC9228D8B5300D3432B /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		B3506ACB228D8BA100D3432B /* Logout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Logout.storyboard; sourceTree = "<group>"; };
 		B351A283228CC88100E79225 /* Data_Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Access.swift; sourceTree = "<group>"; };
 		B369266122284B060081CA89 /* SampleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableCell.swift; sourceTree = "<group>"; };
 		B3761572224B89E7002756CC /* jukebox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = jukebox.storyboard; sourceTree = "<group>"; };
 		B3761574224B8AB0002756CC /* jukebox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jukebox.swift; sourceTree = "<group>"; };
+		B38E546B22F373C800B56BB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3AC52DD2220B06B002B828C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B3F0821D2227C5A500369854 /*  Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Storyboardable.swift"; sourceTree = "<group>"; };
 		B3FF272F22E2476F0060F0E5 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
@@ -193,6 +193,7 @@
 		B322DC2E21D184F5000F0551 /* Berks Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				B38E546B22F373C800B56BB1 /* GoogleService-Info.plist */,
 				B322DC3521D184F5000F0551 /* Main.storyboard */,
 				B3AC52DD2220B06B002B828C /* MainViewController.swift */,
 				B32B317D22E3BB90007E14BE /* Main-View */,
@@ -274,7 +275,6 @@
 			children = (
 				B369266122284B060081CA89 /* SampleTableCell.swift */,
 				B351A283228CC88100E79225 /* Data_Access.swift */,
-				B34D2C9622D7E5A7002F7494 /* GoogleService-Info.plist */,
 				B3F0821D2227C5A500369854 /*  Storyboardable.swift */,
 			);
 			path = Helpers;
@@ -453,10 +453,10 @@
 				B33BE865224A01A3004A8CB1 /* BerksBucks.storyboard in Resources */,
 				B3506ACC228D8BA100D3432B /* Logout.storyboard in Resources */,
 				B322DC3921D184F6000F0551 /* Assets.xcassets in Resources */,
+				B38E546C22F373C800B56BB1 /* GoogleService-Info.plist in Resources */,
 				B33BE848224898D4004A8CB1 /* SideMenuViewController.storyboard in Resources */,
 				B3FF273222E2477A0060F0E5 /* Appointment.storyboard in Resources */,
 				B322DC3721D184F5000F0551 /* Main.storyboard in Resources */,
-				B34D2C9722D7E5A7002F7494 /* GoogleService-Info.plist in Resources */,
 				B33BE8602249F4AA004A8CB1 /* SettingsUI.storyboard in Resources */,
 				B3761573224B89E7002756CC /* jukebox.storyboard in Resources */,
 				B3FF273722E255F30060F0E5 /* HistoryView.storyboard in Resources */,
@@ -540,6 +540,7 @@
 				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -556,6 +557,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
