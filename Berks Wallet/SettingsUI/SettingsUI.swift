@@ -40,4 +40,9 @@ class SettingsUI: UIViewController, SideMenuItemContent, Storyboardable{
     @IBAction func openMenu(_ sender: UIButton) {
         showSideMenu()
     }
+    
+    
+    
+    
+    
 }
