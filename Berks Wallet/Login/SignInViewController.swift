@@ -41,7 +41,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        password.isSecureTextEntry = true
         // Handle the text field’s user input through delegate callbacks.
         username.delegate = self
         password.delegate = self

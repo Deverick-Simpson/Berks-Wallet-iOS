@@ -31,18 +31,15 @@ class SettingsUI: UIViewController, SideMenuItemContent, Storyboardable{
     @IBOutlet weak var profile_image: UIImageView!
     @IBOutlet weak var contact_support: UIButton!
     
+    let db_api = Data_Access()
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
     
     // Show side menu on menu button click
-    @IBAction func openMenu(_ sender: UIButton) {
-        showSideMenu()
-    }
-    
-    
-    
-    
-    
+//    @IBAction func openMenu(_ sender: UIButton) {
+//        showSideMenu()
+//    }
+
 }
