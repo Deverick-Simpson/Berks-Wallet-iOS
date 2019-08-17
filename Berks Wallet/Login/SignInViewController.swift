@@ -16,6 +16,12 @@ class SignInViewController: UIViewController, UITextFieldDelegate{
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     
+    @IBOutlet weak var toggle_password: UISwitch!
+    
+    
+
+    
+    
     
     /*
      * Send Request to php server for Login
@@ -38,16 +44,35 @@ class SignInViewController: UIViewController, UITextFieldDelegate{
         }
     }
     
+    @objc func switchChanged(mySwitch: UISwitch) {
+        // Do something
+        password.isSecureTextEntry = false
+
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        toggle_password.setOn(false, animated: true)
+        
         password.isSecureTextEntry = true
         // Handle the text field’s user input through delegate callbacks.
         username.delegate = self
         password.delegate = self
         
+
+        
+        toggle_password.addTarget(self, action: #selector(switchChanged), for: UIControl.Event.valueChanged)
+        
+
+        
+
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
     
     //MARK: UITextFieldDelegate
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
